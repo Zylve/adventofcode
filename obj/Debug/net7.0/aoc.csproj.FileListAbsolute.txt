@@ -1,0 +1,15 @@
+/home/vuk/projects/cs/aoc/bin/Debug/net7.0/aoc
+/home/vuk/projects/cs/aoc/bin/Debug/net7.0/aoc.deps.json
+/home/vuk/projects/cs/aoc/bin/Debug/net7.0/aoc.runtimeconfig.json
+/home/vuk/projects/cs/aoc/bin/Debug/net7.0/aoc.dll
+/home/vuk/projects/cs/aoc/bin/Debug/net7.0/aoc.pdb
+/home/vuk/projects/cs/aoc/obj/Debug/net7.0/aoc.csproj.AssemblyReference.cache
+/home/vuk/projects/cs/aoc/obj/Debug/net7.0/aoc.GeneratedMSBuildEditorConfig.editorconfig
+/home/vuk/projects/cs/aoc/obj/Debug/net7.0/aoc.AssemblyInfoInputs.cache
+/home/vuk/projects/cs/aoc/obj/Debug/net7.0/aoc.AssemblyInfo.cs
+/home/vuk/projects/cs/aoc/obj/Debug/net7.0/aoc.csproj.CoreCompileInputs.cache
+/home/vuk/projects/cs/aoc/obj/Debug/net7.0/aoc.dll
+/home/vuk/projects/cs/aoc/obj/Debug/net7.0/refint/aoc.dll
+/home/vuk/projects/cs/aoc/obj/Debug/net7.0/aoc.pdb
+/home/vuk/projects/cs/aoc/obj/Debug/net7.0/aoc.genruntimeconfig.cache
+/home/vuk/projects/cs/aoc/obj/Debug/net7.0/ref/aoc.dll

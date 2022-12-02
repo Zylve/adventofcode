@@ -1,0 +1,5 @@
+/home/vuk/projects/cs/aoc/bin/Debug/net7.0/publish/aoc
+/home/vuk/projects/cs/aoc/bin/Debug/net7.0/publish/aoc.dll
+/home/vuk/projects/cs/aoc/bin/Debug/net7.0/publish/aoc.deps.json
+/home/vuk/projects/cs/aoc/bin/Debug/net7.0/publish/aoc.runtimeconfig.json
+/home/vuk/projects/cs/aoc/bin/Debug/net7.0/publish/aoc.pdb
