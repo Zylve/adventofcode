@@ -1,6 +1,3 @@
-using System;
-using System.IO;
-
 namespace net.zylve.aoc {
     public class Day1 {
         private IOrderedEnumerable<int>? calories {
