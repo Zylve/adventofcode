@@ -18,11 +18,11 @@ namespace net.zylve.aoc {
             }
         }
         public void Main1() {
-            Console.WriteLine($"Solution to problem one: {calories.Take(1).Sum()}");
+            Console.WriteLine($"d1p1: {calories.Take(1).Sum()}");
         }
 
         public void Main2() {
-            Console.WriteLine($"Solution to problem two: {calories.Take(3).Sum()}");
+            Console.WriteLine($"d1p2: {calories.Take(3).Sum()}");
         }
     }
 }

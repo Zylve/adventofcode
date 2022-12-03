@@ -54,7 +54,7 @@ namespace net.zylve.aoc {
                 }
             }
 
-            Console.WriteLine(score);
+            Console.WriteLine($"d2p1: {score}");
         }
 
         public void Main2() {
@@ -103,7 +103,7 @@ namespace net.zylve.aoc {
                 }
             }
 
-            Console.WriteLine(score);
+            Console.WriteLine($"d2p2: {score}");
         }
     }
 }

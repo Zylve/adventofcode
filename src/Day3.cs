@@ -22,7 +22,7 @@ namespace net.zylve.aoc {
                 }
             }
 
-            Console.WriteLine($"Total: {total}");
+            Console.WriteLine($"d3p1: {total}");
         }
 
         public void Main2() {
@@ -46,7 +46,7 @@ namespace net.zylve.aoc {
                 }
             }
 
-            Console.WriteLine(total);
+            Console.WriteLine($"d3p2: {total}");
         }
     }
 }
