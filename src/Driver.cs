@@ -9,6 +9,9 @@ namespace net.zylve.aoc {
         }
 
         public static void Main(string[] args) {
+            // new Day3().Main1();
+            new Day3().Main2();
+
             if(args.Length > 0 && args[0] == "-a") {
                 testAll();
                 return;
