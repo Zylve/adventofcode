@@ -22,7 +22,7 @@ namespace net.zylve.aoc {
                 }
             }
 
-            foreach(string str in input.Take(8).Reverse()) {
+            foreach(string str in input.Take(stackNumberLine).Reverse()) {
                 var crates = str.Chunk(4);
 
                 for(int i = 0; i < crates.Count(); i++) {
