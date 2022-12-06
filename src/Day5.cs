@@ -100,7 +100,7 @@ namespace net.zylve.aoc {
 
             string crates = collectCrates(this.stacks);
 
-            Console.WriteLine(crates);
+            Console.WriteLine($"d5p2: {crates}");
         }
     }
 }
