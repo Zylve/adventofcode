@@ -35,9 +35,6 @@ namespace net.zylve.aoc {
 
         private (int, int, int)[] parseInstructions() {
             (int, int, int)[] instructions = new (int, int, int)[input.Length - stackNumberLine - 2];
-            foreach(string str in input.Skip(stackNumberLine + 2)) {
-
-            }
 
             for(int i = 0; i < instructions.Length; i++) {
                 string instruction = input.ElementAt(i + stackNumberLine + 2);
