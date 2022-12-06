@@ -4,7 +4,7 @@ namespace net.zylve.aoc {
             string input = File.ReadAllText("input/input6.txt");
 
             for(int i = 3; i < input.Length - 3; i++) {
-                char[] letters = { input[i], input[i + 1], input[i + 2], input[i + 3] };
+                var letters = input.Skip(i).Take(4);
 
                 if(letters.ToHashSet().Count == 4) {
                     Console.WriteLine($"d6p1: {i + 4}");
@@ -17,11 +17,7 @@ namespace net.zylve.aoc {
             string input = File.ReadAllText("input/input6.txt");
 
             for(int i = 14; i < input.Length; i++) {
-                string letters = "";
-
-                for(int j = 0; j < 14; j++) {
-                    letters += input[i + j];
-                }
+                var letters = input.Skip(i).Take(14);
 
                 if(letters.ToHashSet().Count == 14) {
                     Console.WriteLine($"d6p2: {i + 14}");
