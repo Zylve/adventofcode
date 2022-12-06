@@ -1,13 +1,7 @@
 namespace net.zylve.aoc {
     public class Day6 {
-        private string input = "";
-
-        private void readInput() {
-            input = File.ReadAllText("input/input6.txt");
-        }
-
         public void Main1() {
-            readInput();
+            string input = File.ReadAllText("input/input6.txt");
 
             for(int i = 3; i < input.Length - 3; i++) {
                 char[] letters = { input[i], input[i + 1], input[i + 2], input[i + 3] };
@@ -20,7 +14,7 @@ namespace net.zylve.aoc {
         }
 
         public void Main2() {
-            readInput();
+            string input = File.ReadAllText("input/input6.txt");
 
             for(int i = 14; i < input.Length; i++) {
                 string letters = "";
