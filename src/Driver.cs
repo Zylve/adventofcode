@@ -50,6 +50,7 @@ namespace net.zylve.aoc {
         }
 
         public static void Main(string[] args) {
+            new Day8().Main1();
             if(args.Length > 0 && args[0] == "-a") {
                 testAll();
                 return;
