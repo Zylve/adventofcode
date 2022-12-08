@@ -7,6 +7,7 @@ namespace net.zylve.aoc {
             testSpecific(4);
             testSpecific(5);
             testSpecific(6);
+            testSpecific(7);
         }
 
         private static void testSpecific(int type) {
@@ -39,6 +40,11 @@ namespace net.zylve.aoc {
                 case 6:
                     new Day6().Main1();
                     new Day6().Main2();
+                    break;
+
+                case 7:
+                    new Day7().Main1();
+                    new Day7().Main2();
                     break;
             }
         }
