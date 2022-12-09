@@ -40,7 +40,6 @@ namespace net.zylve.aoc {
                             isVisible = false;
                             break;
                         }
-
                     }
 
                     if(!isVisible) {
@@ -50,7 +49,6 @@ namespace net.zylve.aoc {
                                 isVisible = false;
                                 break;
                             }
-
                         }
                     }
 
@@ -80,9 +78,62 @@ namespace net.zylve.aoc {
                 }
             }
 
-            Console.WriteLine(visible);
+            Console.WriteLine($"d8p1: {visible}");
         }
 
-        public void Main2() { }
+        public void Main2() {
+            parseInput();
+
+            int maxScenicScore = 1;
+
+            for(int i = 0; i < trees.Length; i++) {
+                for(int j = 0; j < trees[i].Length; j++) {
+                    int scenicScore = 1;
+
+                    int up = 0;
+                    int down = 0;
+                    int left = 0;
+                    int right = 0;
+
+                    for(int k = j - 1; k >= 0; k--) {
+                        left++;
+
+                        if(trees[i][j] <= trees[i][k]) {
+                            break;
+                        }
+
+                    }
+
+                    for(int k = j + 1; k < trees[i].Length; k++) {
+                        right++;
+
+                        if(trees[i][j] <= trees[i][k]) {
+                            break;
+                        }
+                    }
+
+                    for(int k = i - 1; k >= 0; k--) {
+                        up++;
+
+                        if(trees[i][j] <= trees[k][j]) {
+                            break;
+                        }
+                    }
+
+                    for(int k = i + 1; k < trees.Length; k++) {
+                        down++;
+
+                        if(trees[i][j] <= trees[k][j]) {
+                            break;
+                        }
+                    }
+
+                    scenicScore = up * down * left * right;
+                    maxScenicScore = Math.Max(maxScenicScore, scenicScore);
+                }
+            }
+
+            Console.WriteLine($"d8p2: {maxScenicScore}");
+        }
     }
 }
